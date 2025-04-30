@@ -3,10 +3,11 @@
     "name": "UdemyRNCourse",
     "slug": "UdemyRNCourse",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "backgroundColor": "#9b88b0",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
