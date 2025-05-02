@@ -66,32 +66,34 @@ export default function GameScreen({userNumber, onGameOver}) {
 
     return (
         <View style={styles.screen}>
-            <Title>Opponent's Guess</Title>
-            <NumberContainer>{currentGuess}</NumberContainer>
-            <Card>
-                <LabelText style={styles.labelText}>Higher or lower</LabelText>
-                <View style={styles.buttonContainer}>
-                    <PrimaryButton onPress={() => nextGuessHandler('lower')}>
-                        <Ionicons name={'remove'} size={24}/>
-                    </PrimaryButton>
-                    <PrimaryButton onPress={() => nextGuessHandler('greater')}>
-                        <Ionicons name={'add'} size={24}/>
-                    </PrimaryButton>
-                </View>
-            </Card>
-
-            <View style={styles.listContainer}>
-                <FlatList
-                    data={guessRounds}
-                    keyExtractor={(item) => item.toString()}
-                    renderItem={({item, index}) => (
-                        <GuessLogItem
-                            roundNumber={guessRoundsListLength - index}
-                            guess={item}
-                        />
-                    )}
-                />
-            </View>
+            <FlatList
+                data={guessRounds}
+                keyExtractor={(item) => item.toString()}
+                renderItem={({item, index}) => (
+                    <GuessLogItem
+                        roundNumber={guessRoundsListLength - index}
+                        guess={item}
+                    />
+                )}
+                ListHeaderComponent={
+                    <>
+                        <Title>Opponent's Guess</Title>
+                        <NumberContainer>{currentGuess}</NumberContainer>
+                        <Card>
+                            <LabelText style={styles.labelText}>Higher or lower</LabelText>
+                            <View style={styles.buttonContainer}>
+                                <PrimaryButton onPress={() => nextGuessHandler('lower')}>
+                                    <Ionicons name={'remove'} size={24}/>
+                                </PrimaryButton>
+                                <PrimaryButton onPress={() => nextGuessHandler('greater')}>
+                                    <Ionicons name={'add'} size={24}/>
+                                </PrimaryButton>
+                            </View>
+                        </Card>
+                    </>
+                }
+                contentContainerStyle={{paddingBottom: 100}}
+            />
         </View>
     );
 }

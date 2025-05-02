@@ -1,4 +1,4 @@
-import {TextInput, Alert, View, StyleSheet} from "react-native";
+import {TextInput, Alert, View, StyleSheet, ScrollView, KeyboardAvoidingView} from "react-native";
 import PrimaryButton from "../components/ui/PrimaryButton";
 import {useState} from "react";
 import Title from "../components/ui/Title";
@@ -29,24 +29,28 @@ function StartGameScreen({onPickNumber}) {
     }
 
     return (
-        <View style={styles.rootContainer}>
-            <Title>Guess My number</Title>
-            <Card>
-                <LabelText>Enter a number</LabelText>
-                <TextInput
-                    maxLength={2}
-                    keyboardType={'numeric'}
-                    style={styles.textInput}
-                    value={enterNumber}
-                    onChangeText={numberInputHandler}
-                />
-                {/*Buttons */}
-                <View style={styles.buttonContainer}>
-                    <PrimaryButton onPress={resetInputHandler}>Reset</PrimaryButton>
-                    <PrimaryButton onPress={confirmInputHandler}>Confirm</PrimaryButton>
+        <ScrollView>
+            <KeyboardAvoidingView behavior={"position"}>
+                <View style={styles.rootContainer}>
+                    <Title>Guess My number</Title>
+                    <Card>
+                        <LabelText>Enter a number</LabelText>
+                        <TextInput
+                            maxLength={2}
+                            keyboardType={'numeric'}
+                            style={styles.textInput}
+                            value={enterNumber}
+                            onChangeText={numberInputHandler}
+                        />
+                        {/*Buttons */}
+                        <View style={styles.buttonContainer}>
+                            <PrimaryButton onPress={resetInputHandler}>Reset</PrimaryButton>
+                            <PrimaryButton onPress={confirmInputHandler}>Confirm</PrimaryButton>
+                        </View>
+                    </Card>
                 </View>
-            </Card>
-        </View>
+            </KeyboardAvoidingView>
+        </ScrollView>
     )
 }
 
@@ -54,7 +58,7 @@ export default StartGameScreen;
 
 const styles = StyleSheet.create({
     rootContainer: {
-        marginTop: 30,
+        marginVertical: 70,
         alignItems: 'center',
     },
     textInput: {
