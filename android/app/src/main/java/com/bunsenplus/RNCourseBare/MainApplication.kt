@@ -1,4 +1,4 @@
-package com.rncoursebare
+package com.bunsenplus.RNCourseBare
 
 import android.app.Application
 import android.content.res.Configuration
