@@ -1,5 +1,5 @@
 import {StatusBar} from 'expo-status-bar';
-import {View} from 'react-native';
+import {View, Text} from 'react-native';
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import {NavigationContainer} from "@react-navigation/native";
 import * as SplashScreen from "expo-splash-screen";
@@ -48,6 +48,8 @@ export default function App() {
     return (
         <View style={{flex: 1}} onLayout={onLayoutRootView}>
             <StatusBar style="auto"/>
+            <Text>Hello</Text>
+            {/*
             <NavigationContainer>
                 <Stack.Navigator
                     screenOptions={{
@@ -87,6 +89,8 @@ export default function App() {
                     />
                 </Stack.Navigator>
             </NavigationContainer>
+
+            */}
         </View>
     );
 }

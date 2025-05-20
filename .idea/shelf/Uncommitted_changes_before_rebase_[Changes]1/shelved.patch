@@ -1,0 +1,18 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files\r\n\r\n# dependencies\r\nnode_modules/\r\n\r\n# Expo\r\n.expo/\r\ndist/\r\nweb-build/\r\nexpo-env.d.ts\r\n\r\n# Native\r\n*.orig.*\r\n*.jks\r\n*.p8\r\n*.p12\r\n*.key\r\n*.mobileprovision\r\n\r\n# Metro\r\n.metro-health-check*\r\n\r\n# debug\r\nnpm-debug.*\r\nyarn-debug.*\r\nyarn-error.*\r\n\r\nidentifier.sqlite\r\n\r\n# macOS\r\n.DS_Store\r\n*.pem\r\n\r\n# local env files\r\n.env*.local\r\n*.env\r\n\r\n# typescript\r\n*.tsbuildinfo\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 99359f59e70392cbdd7464df1dbdb3945b54a791)
++++ b/.gitignore	(date 1747327920042)
+@@ -35,5 +35,7 @@
+ .env*.local
+ *.env
+ 
++idea/
++
+ # typescript
+ *.tsbuildinfo

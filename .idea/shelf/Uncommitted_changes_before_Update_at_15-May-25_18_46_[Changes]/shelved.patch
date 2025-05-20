@@ -1,0 +1,314 @@
+Index: .idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml
+new file mode 100644
+--- /dev/null	(date 1747327492734)
++++ b/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml	(date 1747327492734)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_rebase_[Changes]" date="1747321326218" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1747327492843)
++++ b/.idea/workspace.xml	(date 1747327492843)
+@@ -0,0 +1,271 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="5e35d4ea-ad36-4c4e-9cba-da75ae68d50c" name="Changes" comment="tenth Chapter removed api">
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/utils/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/location.js" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="JavaScript File" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="RESET_MODE" value="HARD" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="2wLv3dgvpI6aWyQOziI7WXNCfOk" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;D:/Programming/react-native/52/UdemyRNCourse/src/components/ui&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
++    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
++  },
++  &quot;keyToStringList&quot;: {
++    &quot;DatabaseDriversLRU&quot;: [
++      &quot;sqlite&quot;
++    ]
++  }
++}</component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse\src\components\ui" />
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse\src\screens" />
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse" />
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse\src" />
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse\src\utils" />
++    </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse\src" />
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse\src\components" />
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse\src\components\MealsList" />
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse" />
++      <recent name="D:\Programming\react-native\52\UdemyRNCourse\scr\data" />
++    </key>
++  </component>
++  <component name="RunManager">
++    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
++      <package-json value="$PROJECT_DIR$/package.json" />
++      <command value="start" />
++      <node-interpreter value="project" />
++      <envs />
++      <method v="2" />
++    </configuration>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="5e35d4ea-ad36-4c4e-9cba-da75ae68d50c" name="Changes" comment="" />
++      <created>1745833470968</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1745833470968</updated>
++      <workItem from="1745833476442" duration="3614000" />
++      <workItem from="1745837125542" duration="7194000" />
++      <workItem from="1745909229190" duration="599000" />
++      <workItem from="1745926565474" duration="10984000" />
++      <workItem from="1745998291824" duration="785000" />
++      <workItem from="1745999134179" duration="3646000" />
++      <workItem from="1746014005367" duration="1809000" />
++      <workItem from="1746015855387" duration="2981000" />
++      <workItem from="1746077363751" duration="17705000" />
++      <workItem from="1746170902990" duration="6383000" />
++      <workItem from="1746432101751" duration="9388000" />
++      <workItem from="1746457382088" duration="873000" />
++      <workItem from="1746517461562" duration="9477000" />
++      <workItem from="1746531554658" duration="4432000" />
++      <workItem from="1746603932598" duration="4964000" />
++      <workItem from="1746710304346" duration="7823000" />
++      <workItem from="1746963822424" duration="67000" />
++      <workItem from="1747033342450" duration="7347000" />
++      <workItem from="1747048240879" duration="8193000" />
++      <workItem from="1747135554926" duration="44315000" />
++      <workItem from="1747290646673" duration="18660000" />
++      <workItem from="1747321512874" duration="121000" />
++      <workItem from="1747321654950" duration="61000" />
++      <workItem from="1747321731495" duration="268000" />
++      <workItem from="1747322020336" duration="108000" />
++      <workItem from="1747322132429" duration="730000" />
++    </task>
++    <task id="LOCAL-00001" summary="First Chapter">
++      <created>1746000971176</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1746000971177</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Second Chapter">
++      <created>1746095002391</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1746095002391</updated>
++    </task>
++    <task id="LOCAL-00003" summary="third Chapter">
++      <created>1746194108488</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1746194108488</updated>
++    </task>
++    <task id="LOCAL-00004" summary="forth Chapter">
++      <created>1746522552473</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1746522552473</updated>
++    </task>
++    <task id="LOCAL-00005" summary="forth Chapter -b">
++      <created>1746525051759</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1746525051759</updated>
++    </task>
++    <task id="LOCAL-00006" summary="forth Chapter with nested navigators">
++      <created>1746526752207</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1746526752207</updated>
++    </task>
++    <task id="LOCAL-00007" summary="manage app-wide with context">
++      <created>1746534895656</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1746534895656</updated>
++    </task>
++    <task id="LOCAL-00008" summary="fifth Chapter">
++      <created>1746536610599</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1746536610599</updated>
++    </task>
++    <task id="LOCAL-00009" summary="sixth Chapter">
++      <created>1747040986485</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1747040986485</updated>
++    </task>
++    <task id="LOCAL-00010" summary="seventh Chapter">
++      <created>1747056413885</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1747056413885</updated>
++    </task>
++    <task id="LOCAL-00011" summary="eighth Chapter">
++      <created>1747146888586</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1747146888586</updated>
++    </task>
++    <task id="LOCAL-00012" summary="ninth Chapter">
++      <created>1747204084562</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1747204084562</updated>
++    </task>
++    <task id="LOCAL-00013" summary="tenth Chapter">
++      <created>1747320752302</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1747320752303</updated>
++    </task>
++    <task id="LOCAL-00014" summary="tenth Chapter removed api">
++      <created>1747321095790</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1747321095790</updated>
++    </task>
++    <option name="localTasksCounter" value="15" />
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="chapter10" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="First Chapter" />
++    <MESSAGE value="Second Chapter" />
++    <MESSAGE value="third Chapter" />
++    <MESSAGE value="forth Chapter" />
++    <MESSAGE value="forth Chapter -b" />
++    <MESSAGE value="forth Chapter with nested navigators" />
++    <MESSAGE value="manage app-wide with context" />
++    <MESSAGE value="fifth Chapter" />
++    <MESSAGE value="sixth Chapter" />
++    <MESSAGE value="seventh Chapter" />
++    <MESSAGE value="eighth Chapter" />
++    <MESSAGE value="ninth Chapter" />
++    <MESSAGE value="tenth Chapter" />
++    <MESSAGE value="tenth Chapter removed api" />
++    <option name="LAST_COMMIT_MESSAGE" value="tenth Chapter removed api" />
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1747322001192)
++++ b/.idea/vcs.xml	(date 1747322001192)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
